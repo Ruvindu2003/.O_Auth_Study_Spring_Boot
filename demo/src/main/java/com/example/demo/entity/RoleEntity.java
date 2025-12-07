@@ -10,9 +10,9 @@ import lombok.*;
 @Setter
 @Table(name = "userRole")
 @Entity
-public class Role {
+public class RoleEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  Long id;
-    private  String useRole;
+    private Long id;
+    private String useRole;
 }
